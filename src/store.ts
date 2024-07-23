@@ -22,6 +22,8 @@ export const store = configureStore({
     }),
 });
 
+
+// ghbdtn dctv qjsdfdfs
 export type AppState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
 export type AppThunk<R = void> = ThunkAction<R, AppState, typeof extraArgument, UnknownAction>;
